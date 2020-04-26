@@ -1,0 +1,515 @@
+/*================ Extra small devices ===============*/
+
+@media (max-width: 575.98px) {
+	body {
+		overflow-x: hidden;
+	}
+	.navbar-toggler i {
+    color: #fff;
+    font-size: 15px;
+	}
+	
+	.navbar-light .navbar-toggler {
+	 border-color: #fff;
+	 transition: all linear .3s;
+		margin-left: 15px;
+    }
+	
+	.navbar-light .navbar-toggler:hover {
+	  border-color: #c7b299;
+    }
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+	text-align: center;
+    }
+	.banner-text h1 {
+	font-size: 30px;
+    }
+	
+	.banner-text h2 {
+	font-size: 20px;
+    }
+	.banner-text p {
+	font-size: 14px;
+	line-height: 20px;
+    }
+	
+	#banner {
+	padding-top: 150px;
+	padding-bottom: 105px;
+    }
+	
+	.navbar-brand img {
+	width: 80%;
+	}
+	.port-text p {
+	font-size: 13px;
+	line-height: 20px;
+    }
+	#about {
+	padding-top: 30px;
+    }
+	.about-text p {
+	font-size: 13px;
+	line-height: 15px;
+    }
+	.about-text {
+	margin-bottom: 15px;
+    }
+		
+	#portfolio {
+	padding-top: 30px;
+	padding-bottom: 25px;
+    }
+	#video {
+	padding-top: 150px;
+	padding-bottom: 165px;
+    }
+		
+	.video-text h2 {
+	font-size: 25px;
+    }
+	.video-text p {
+	line-height: 20px;
+    }
+	#counter {
+	padding-top: 40px;
+	padding-bottom: 27px;
+    }
+	.counter-item h2 {
+	font-size: 45px;
+	}
+	.counter-item i {
+	font-size: 40px;
+    }
+	.counter-item p {
+	font-size: 22px;
+    }
+    #blog {
+	padding-top: 30px;
+	}
+	.blog-text p {
+	font-size: 15px;
+	padding-bottom: 11px;
+    }
+	#footer {
+	padding-top: 25px;
+	margin-top: 20px;
+	}
+	.footer-item p {
+	line-height: 20px;
+	margin-bottom: -3px;
+    }
+	.footer-img {
+	padding-left: 0px;
+	}
+	.footer-img {
+	padding-bottom: 25px;
+	}
+	
+	.copy-right p {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	line-height: 10px;
+    }
+	.Button1 {
+	padding: 10px 25px;
+	font-size: 15px;	
+    }
+	.btn {
+	padding: 7px 15px;
+    }
+	}
+	
+	/*================ Small device ============*/
+	
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		
+	.navbar-toggler i {
+		color: #fff;
+	    font-size: 15px;
+	}
+	
+	.navbar-light .navbar-toggler {
+	    border-color: #fff;
+		transition: all linear .3s;
+		margin-left: 15px;
+    }
+	
+	.navbar-light .navbar-toggler:hover {
+	     border-color: #c7b299;
+    }
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+	text-align: center;
+    }
+	
+	
+	.banner-text h2 {
+	font-size: 22px;
+    }
+	
+	#banner {
+	padding-top: 150px;
+	padding-bottom: 105px;
+    }
+	
+	.navbar-brand img {
+	 width: 80%;
+	}
+	#about {
+	padding-top: 30px;
+    }
+	.about-text p {
+	font-size: 13px;
+	line-height: 15px;
+		
+    }
+	.about-text {
+	margin-bottom: 15px;
+    }
+		
+	#portfolio {
+	padding-top: 30px;
+	padding-bottom: 25px;
+    }
+	#video {
+	padding-top: 150px;
+	padding-bottom: 165px;
+    }
+		
+	.video-text h2 {
+	font-size: 25px;
+    }
+	.video-text p {
+	line-height: 20px;
+    }
+	#counter {
+	padding-top: 40px;
+	padding-bottom: 27px;
+    }
+	.counter-item h2 {
+	font-size: 45px;
+	}
+	.counter-item i {
+	font-size: 40px;
+    }
+	.counter-item p {
+	font-size: 22px;
+    }
+    #blog {
+	padding-top: 30px;
+	}
+	.blog-text p {
+	font-size: 15px;
+	padding-bottom: 11px;
+    }
+	#footer {
+	padding-top: 25px;
+	margin-top: 20px;
+	}
+	.footer-item p {
+	line-height: 20px;
+	margin-bottom: -3px;
+    }
+	.footer-img {
+	padding-left: 0px;
+    }
+	.copy-right p {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	line-height: 10px;
+    }
+	.Button1 {
+	padding: 10px 25px;
+	font-size: 15px;	
+    }
+	.btn {
+	padding: 7px 15px;
+    }		
+  
+	}
+/*======================= Medium devices =================*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+    .navbar-toggler i {
+		color: #fff;
+	    font-size: 15px;
+	}
+	
+	.navbar-light .navbar-toggler {
+	    border-color: #fff;
+		transition: all linear .3s;
+		margin-left: 15px;
+    }
+	
+	.navbar-light .navbar-toggler:hover {
+	     border-color: #c7b299;
+    }
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+	text-align: center;
+    }
+	
+	
+	.banner-text h2 {
+	font-size: 22px;
+    }
+	
+	#banner {
+	padding-top: 150px;
+	padding-bottom: 105px;
+    }
+	
+	.navbar-brand img {
+	 width: 80%;
+	}
+	#about {
+	padding-top: 30px;
+    }
+	.about-text p {
+	font-size: 13px;
+	line-height: 15px;
+    }
+	.about-text {
+	margin-bottom: 15px;
+    }
+		
+	#portfolio {
+	padding-top: 30px;
+	padding-bottom: 25px;
+    }
+	#video {
+	padding-top: 150px;
+	padding-bottom: 165px;
+    }
+		
+	.video-text h2 {
+	font-size: 25px;
+    }
+	.video-text p {
+	line-height: 20px;
+    }
+	#counter {
+	padding-top: 40px;
+	padding-bottom: 27px;
+    }
+	.counter-item h2 {
+	font-size: 45px;
+	}
+	.counter-item i {
+	font-size: 40px;
+    }
+	.counter-item p {
+	font-size: 22px;
+    }
+    #blog {
+	padding-top: 30px;
+	}
+	.blog-text p {
+	font-size: 15px;
+	padding-bottom: 11px;
+    }
+	#footer {
+	padding-top: 25px;
+	margin-top: 20px;
+	}
+	.footer-item p {
+	line-height: 20px;
+	margin-bottom: -3px;
+    }
+	.copy-right p {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	line-height: 10px;
+    }
+	.Button1 {
+	padding: 10px 25px;
+	font-size: 15px;	
+    }
+	.btn {
+	padding: 7px 15px;
+    }	
+	}
+/*========================= Large devices ======================*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+	 
+	.banner-text h2 {
+	font-size: 22px;
+    }
+	
+	#banner {
+	padding-top: 200px;
+	padding-bottom: 200px;
+    }
+	
+	.navbar-brand img {
+	 width: 80%;
+	}
+	#about {
+	padding-top: 30px;
+    }
+	.about-text p {
+	font-size: 13px;
+	line-height: 15px;
+    }
+	.about-text {
+	margin-bottom: 15px;
+    }
+		
+	#portfolio {
+	padding-top: 30px;
+	padding-bottom: 25px;
+    }
+	#video {
+	padding-top: 150px;
+	padding-bottom: 165px;
+    }
+		
+	.video-text h2 {
+	font-size: 25px;
+    }
+	.video-text p {
+	line-height: 20px;
+    }
+	#counter {
+	padding-top: 40px;
+	padding-bottom: 27px;
+    }
+	.counter-item h2 {
+	font-size: 45px;
+	}
+	.counter-item i {
+	font-size: 40px;
+    }
+	.counter-item p {
+	font-size: 22px;
+    }
+    #blog {
+	padding-top: 30px;
+	}
+	.blog-text p {
+	font-size: 15px;
+	padding-bottom: 11px;
+    }
+	#footer {
+	padding-top: 25px;
+	margin-top: 20px;
+	}
+	.footer-item p {
+	line-height: 20px;
+	margin-bottom: -3px;
+	font-size: 12px;
+    }
+	.copy-right p {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	line-height: 10px;
+    }
+	.Button1 {
+	padding: 7px 7px;
+	font-size: 15px;	
+    }
+	.btn {
+	padding: 10px 25px;
+    }	
+	}
+/*========================= Large devices ======================*/
+    @media (min-width: 1200px) { 
+	.banner-text h2 {
+	font-size: 22px;
+    }
+	
+	#banner {
+	padding-top: 380px;
+	padding-bottom: 385px;
+    }
+	
+	.navbar-brand img {
+	 width: 80%;
+	}
+	#about {
+	padding-top: 30px;
+    }
+	.about-text p {
+	font-size: 13px;
+	line-height: 15px;
+    }
+	.about-text {
+	margin-bottom: 15px;
+    }
+		
+	#portfolio {
+	padding-top: 30px;
+	padding-bottom: 25px;
+    }
+	#video {
+	padding-top: 150px;
+	padding-bottom: 165px;
+    }
+		
+	.video-text h2 {
+	font-size: 25px;
+    }
+	.video-text p {
+	line-height: 20px;
+    }
+	#counter {
+	padding-top: 40px;
+	padding-bottom: 27px;
+    }
+	.counter-item h2 {
+	font-size: 45px;
+	}
+	.counter-item i {
+	font-size: 40px;
+    }
+	.counter-item p {
+	font-size: 22px;
+    }
+    #blog {
+	padding-top: 30px;
+	}
+	.blog-text p {
+	font-size: 15px;
+	padding-bottom: 11px;
+    }
+	#footer {
+	padding-top: 25px;
+	margin-top: 20px;
+	}
+	.footer-item p {
+	line-height: 20px;
+	margin-bottom: -3px;
+	font-size: 12px;
+    }
+	.copy-right p {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	line-height: 10px;
+    }
+	.Button1 {
+	padding: 10px 25px;
+	font-size: 15px;	
+    }
+	.btn {
+	padding: 7px 15px;
+    }
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

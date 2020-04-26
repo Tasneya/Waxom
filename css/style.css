@@ -1,0 +1,835 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	
+}
+a {
+	text-decoration: none;
+}
+ul,ol {
+	list-style-type: none;
+}
+
+
+/*========== navbar start ========*/
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #c7b299;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #c7b299;
+}
+.bg-light {
+	background-color: transparent!important;
+}
+.light2 {
+    background:  rgba(51, 51, 51, 0.95);
+	animation: bg 1s;
+}
+@keyframes bg {
+	from{top: -100px}
+	to{top: 0}
+}
+
+/*========== navbar End ========*/
+
+/*========== Banner Start ========*/
+#banner {
+	background: url(../images/banner..jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 380px;
+	padding-bottom: 385px;
+	position: relative;
+}
+
+#banner:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.banner-text {
+    position: relative;
+	z-index: 2;
+}
+
+.banner-text h2 {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 36px;
+	color: #fff;
+	
+}
+.banner-text h1 {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 52px;
+	color: #fff;
+	padding-bottom: 5px;
+}
+.banner-text p {
+    font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	}
+
+.btn {
+	background: #998675;
+	font-family: 'Raleway';
+	font-weight: 900;
+	color: #fff;
+	padding: 10px 25px;
+	margin-top: 32px;
+	transition: all linear .3s;
+	outline: none;
+}
+.btn:hover {
+	color: #998675;
+	background: #fff;
+}
+.port-btn {
+	padding-bottom: 40px;
+}
+
+/*========== Banner End ========*/
+
+/*========== About Start ========*/
+#about {
+	padding-top: 80px;
+}
+.about-text {
+	position: relative;
+	color: #555;
+	padding-bottom: 3px;
+	transition: all linear .3s;
+}
+.about-text:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+	height: 3px;
+	background: #f1eee9;
+	transition: all linear .3s;
+}
+.about-text i {
+	font-size: 50px;
+	padding-bottom: 23px;
+}
+.about-text h2 {
+	font-family: 'Raleway';
+	font-size: 22px;
+	padding-bottom: 5px;
+}
+.about-text p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 14px;
+	color: #8c8c8c;
+	line-height: 24px;
+	padding: 0 15px;
+}
+.about-text:hover {
+	color: #c7b299;
+}
+.about-text:hover:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+	height: 3px;
+	background: #c7b299;
+}
+/*========== About End ========*/
+
+/*========== Back-top Start ========*/
+.back-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+.back-top i {
+	width: 40px;
+	height: 40px;
+	background: rgba(51, 51, 51, 0.9);
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	transition: all linear .3s;
+	
+}.back-top i:hover {
+	width: 40px;
+	height: 40px;
+	background: #998675;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	
+}
+/*========== Back-top End ========*/
+
+/*========== Collapse Start ========*/
+.card-header {
+	padding: 0;
+}
+.card-header .btn5{
+	padding: 20px 20px;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Raleway';
+	font-weight: 500;
+	color: rgba(51, 51, 51, 0.9);  	
+}
+.card-header .btn5:hover, .btn5:focus {
+	text-decoration: none;
+}
+.card-header .btn5 i {
+	float: right;
+	transition: all linear .3s;
+}
+.card-body {
+	 font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 16px;
+	color: #8c8c8c;
+	line-height: 28px;
+}
+.card {
+	margin-bottom: 20px;
+}
+.card-header .btn5.btn-link {
+	background: #555;
+	color: aliceblue;
+}
+.card-header .btn5.btn-link.collapsed {
+	background: #998675;
+	color: #fff;
+}
+.card-header .btn5.btn-link i {
+	transform: rotate(-90deg);
+}
+.card-header .btn5.btn-link.collapsed i {
+	transform: rotate(0);
+}
+/*========== Collapse End ========*/
+
+/*========== Tabs/navs Start ========*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+	color: #fff;
+	background-color: #fff;
+	border-color: none;
+	margin-right: 20px;
+	background: #998675;
+	border-radius: 0;
+	transition: all linear .3s;
+	padding: 10px 25px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 16px;
+}
+.nav-tabs {
+	border-bottom: none;
+	padding-bottom: 30px;
+	
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	background: rgba(25, 25, 25, 0.85);
+	color: #998675;
+	border-radius: 0;
+}
+.lil i {
+	color:  #998675;
+	font-size: 20px;
+}
+.lil h5 {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+}
+/*==========Tabs/navs End ========*/
+
+/*==========Modal Start ========*/
+.modal-header {
+	background: #998675;	
+}
+.modal-header h5 {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
+	color: #fff;
+}
+.modal-content {
+	margin-top: 100px;
+}
+.tabs {
+	background-image: linear-gradient(to right, #211b19 , #4e3427);
+	padding-top: 72px;
+	padding-bottom: 90px;
+    width: 100%;
+}
+.bye h4 {
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 24px;
+}
+/*========== Modal End ========*/
+
+/*========== Portfolio Start ========*/
+#portfolio {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.port-text h1 {
+    font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
+	color: #555;  	
+}
+.port-text p {
+    font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 16px;
+	color: #8c8c8c;
+	line-height: 28px;
+}
+.port-btn button {
+	margin-left: 14px;
+}
+.btn1 {
+	background: #fff;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	color: #8c8c8c;
+	padding: 10px 25px;
+	margin-top: 30px;
+	margin-right: 15px;
+	cursor: pointer;
+	border-radius: 5%;
+	transition: all linear .3s;
+	
+}
+.btn1:hover {
+	color: #fff;
+	background-color: #998675;
+	border-color: transparent;
+	
+	
+}
+
+.port-img {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #111;
+	opacity: 0;
+	transition: all linear .3s;
+}
+
+.port-img:hover .overlay {
+	opacity: .7;
+}
+
+.font {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	transform: translateX(-40%);
+	transform: translateY(-35%);
+}
+
+.font .fa-link {
+	font-size: 25px;
+	color: #c7b299;
+	padding-right: 10px;
+}
+
+.font .fa-search {
+	font-size: 25px;
+	color: #fff;
+}
+
+
+.info {
+    background: #fbfaf8;
+    position: relative;
+    z-index: 3;
+}
+
+.port-img:hover .info{
+    background: #362f2d;
+}
+
+.info h3 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    color: #c7b299;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.port-img:hover .info h3{
+    color: #fff;
+}
+
+.info p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 14px;
+    color: #d1d1d1;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.port-img:hover .info p{
+    color: #c7b299;
+}
+.Button1 {
+	color: #fff;
+	background: #998675;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	padding: 10px 25px;
+	cursor: pointer;
+	transition: all linear .3s;
+}
+.Button1:hover {
+	color: #fff;
+	background-color: #666;
+	border-color: #ebebeb;
+	transition: all linear .3s;
+}
+/*========== Portfolio End ========*/
+
+/*=========== Blog Start ========*/
+#blog {
+	padding-top: 90px;
+	
+}
+.blog-text h1{
+	color: #555555;
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 30px;
+}
+.blog-text p {
+	color: #8c8c8c;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 16px;
+	padding-bottom: 40px;
+	
+}
+
+.soap {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 60px;
+	background: #363636;
+	border-radius: 5%;
+	z-index: 999;
+	text-align: center;
+}
+.soap h4 {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 24px;
+	color: #fff;
+}
+.soap p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	background: #252525;
+}
+
+/*============= Blog End ========*/
+
+/*========== Video Start ========*/
+#video {
+    background: url(../images/video.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 380px;
+	padding-bottom: 385px;
+	position: relative;
+}
+#video:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(17, 17, 17, 0.5);
+}
+.video-text h2 {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
+	color: #fff; 
+	z-index: 999;
+	position: relative;
+	padding-top: 25px;
+}
+.video-text p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff; 
+	z-index: 999;
+	position: absolute;
+	line-height: 28px;
+	padding-right: 20px;
+	padding-right: 20px;
+}
+.round i {
+	font-size: 42px;
+	color: #fff; 
+	z-index: 999;
+	position: relative;
+	padding-left: 10px;
+	padding-top: 15px;
+	opacity: 0.5;
+}
+.round {
+	width: 72px;
+	height: 72px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	opacity: 100;
+	position: relative;
+}
+.round:after {
+	position: absolute;
+	content: '';
+	width: 85%;
+	height: 85%;
+	border: 3px solid #fff;
+	top: 7%;
+	left: 8%;
+	border-radius: 50%;
+}
+/*========== Video End ========*/
+
+/*========== Counter Start ========*/
+#counter {
+	background-image: linear-gradient(to right, #211b19 , #4e3427);
+	padding-top: 72px;
+	padding-bottom: 90px;
+    width: 100%;
+}
+.counter-item i {
+	font-size: 48px;
+	color: #c7b299;
+}
+.counter-item h2{
+	font-family: 'Montserrat';
+	font-weight: 100;
+	font-size: 48px;
+	color: #fff;
+}
+.counter-item p {
+	font-family: 'Montserrat';
+	font-weight: 100;
+	font-size: 14px;
+	color: #c7b299;
+}
+/*========== Counter End ========*/
+
+/*========== Footer Start ========*/
+#footer {
+	background: #191919;
+	padding-top: 80px;
+	margin-top: 90px;
+}
+.footer-item p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 13px;
+	color: #555;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+.footer-item p:hover {
+	color: #c7b299;
+}
+.footer-item h1 {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff; 
+	padding-top: 15px;
+	padding-bottom: 22px;
+	
+}
+.footer-item b {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 12px;
+	color: #7b7979;;
+	line-height: 24px;
+}
+.footer-item b:hover{
+	color: #fff;
+}
+hr {
+	background: #454242;
+}
+.logo-img {
+	padding-bottom: 25px;
+}
+.footer-item a {
+	color: #d1d1d1;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.footer-img {
+	padding-bottom: 10px;
+}
+.footer-item span {
+	color: #00bff3;
+}
+.footer-item a {
+	color: #959595;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+}
+/*========== Footer End ========*/
+
+/*========== Copyright Start ========*/
+#copy {
+	background: #111111;
+}
+.copy-right p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 14px;
+	color: #555;
+	line-height: 90px;
+	padding-right: 10px;
+}
+.copy-right  span {
+	color: #959595;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+}
+.copy-right a {
+	color: #c7b299;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+}
+/*========== Copyright End ========*/
+
+/*========== About page Start ========*/
+#about-page .navbar {
+	background:  #555;
+}
+#bread {
+	margin-top: 100px;
+	background: #c7b299;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bread-text h3 {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
+	color: #555;
+}
+.bread-text a {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff; 
+}
+.bread-text span {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(90, 83, 68);
+}
+.about-txt h2 {
+	margin: 25px 0 20px 0;
+	font-family: 'Raleway';
+	font-weight: 400;
+	color: #555555;
+	text-transform: none;
+	font-size: 43px;
+	line-height: 53px;
+}
+.about-txt p {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 14px;
+	color: #8c8c8c;
+	
+}
+.uff i {
+	padding-bottom: 16px;
+	padding-left: 50px;
+	position: relative;
+	list-style: none;
+	color: #c7b299;
+}
+.uff h5 {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	color: #8c8c8c;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+/*========== About page End ========*/
+
+/*========== Shortcodes page Start ========*/
+#pb-5 .col-lg-8 {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+/*========== Shortcodes page End ========*/
+
+/*========== Contact page Start ========*/
+#map {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.address h3 {
+	margin: 25px 0 20px 0;
+	font-family: 'Raleway';
+	font-weight: 800;
+	color: #222;
+	font-size: 24px;
+}
+.address p {
+	font-family: 'Raleway';
+	font-weight: 400;
+	color: #555;
+	font-size: 20px
+}
+.bby h3 {
+	margin: 25px 0 20px 0;
+	font-family: 'Raleway';
+	font-weight: 800;
+	color: #222;
+	font-size: 24px;
+}
+.bby p {
+	font-family: 'Raleway';
+	font-weight: 400;
+	color: #555555;
+	font-size: 20px;
+}
+/*========== Contact page End ========*/
+
+/*========== Preloader dstart ========*/
+.preloader {
+	background: #555;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999999;
+	top: 0;
+	left: 0;
+}
+
+.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:100px;
+  height:100px;
+}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+.load :last-child{background:#193B48}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+/*========== Preloader End ========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
